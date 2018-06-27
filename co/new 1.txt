@@ -1,0 +1,9 @@
+cat -n tipiTester.xml | sed -n -e "2357,2376p" | grep -w "line" | cut -d '<' -f 1 | tr -d ' ' | head -1
+
+./insert.csh "93K266" "J750 - 1F" "CLUSTER 4"
+
+cat -n tipiTester.xml | sed -n -e "2358,2377p" | grep -w "</group>" | cut -d '<' -f 1 | tr -d ' '
+
+grep -wv ET1-2 tipiTester.xml > tipiTester.xml.temp; mv tipiTester.xml.temp tipiTester.xml;
+
+grep -w ET1-2 tipiTester.xml
