@@ -997,7 +997,6 @@
         <station>UF2</station>
         <station>UF3</station>
         <station>UF4</station>
-	<station>ET1-1</station>
         <station>ET1-2</station>
         <station>ET2-1</station>
         <station>ET2-2</station>
@@ -1798,7 +1797,6 @@
             <station>VL523</station>
             <station>VL524</station>
             <station>VL525</station>
-	    <station>ET1-1</station>
          <line>CLUSTER 4</line>
             <station>VL5</station>
             <station>VL6</station>

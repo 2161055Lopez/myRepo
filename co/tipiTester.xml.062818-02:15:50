@@ -997,7 +997,7 @@
         <station>UF2</station>
         <station>UF3</station>
         <station>UF4</station>
-	<station>ET1-1</station>
+        <station>ET1-1</station>
         <station>ET1-2</station>
         <station>ET2-1</station>
         <station>ET2-2</station>
@@ -1241,7 +1241,6 @@
         <station>EA7</station>
         <station>EA8</station>
      <station>EA9</station>
-	<station>EA10</station>
         <station>EA11</station>
         <station>EA12</station>
         <station>EA13</station>
@@ -1293,7 +1292,6 @@
         <station>93K37</station>
         <station>93K38</station>
         <station>93K39</station>
-	<station>93K40</station>
         <station>93K41</station>
         <station>93K42</station>
         <station>93K43</station>
@@ -1324,7 +1322,7 @@
         <station>93K68</station>
 	<station>93K69</station>
 	<station>93K70</station>
-	<station>JX1</station>
+        <station>JX1</station>
         <station>JX2</station>
         <station>JX3</station>
         <station>JX4</station>
@@ -1338,7 +1336,6 @@
      <station>JX12</station>
         <station>JX13</station>
      <station>JX14</station>
-	<station>JX40</station>
     </stations>
     <stationGroups>
         <group name = "Test - IFLEX/FUSION/EAGLE/VLCT/93K/J750 - 1F" alias = "Test - IFLEX/FUSION/EAGLE/VLCT/93K/J750 - 1F">
@@ -1463,7 +1460,6 @@
             <station>93K34</station>
        	    <station>93K35</station>
             <station>93K36</station>
-	    <station>93K40</station>
             <station>93K45</station>
             <station>93K58</station>
 	    <station>93K70</station>
@@ -1471,7 +1467,6 @@
 	    <station>VL15</station>
 	    <station>VL120</station>
          <line>CLUSTER 2</line>
-	    <station>EA10</station>
             <station>EA12</station>
             <station>UF1</station>
             <station>UF2</station>  
@@ -1484,8 +1479,6 @@
             <station>93K23</station>
             <station>93K25</station>
             <station>93K26</station>
-	    <station>JX1</station>
-	    <station>JX40</station>
          <line>CLUSTER 3</line>
             <station>93K2</station>
             <station>93K3</station>
@@ -1798,7 +1791,6 @@
             <station>VL523</station>
             <station>VL524</station>
             <station>VL525</station>
-	    <station>ET1-1</station>
          <line>CLUSTER 4</line>
             <station>VL5</station>
             <station>VL6</station>
@@ -2274,6 +2266,7 @@
             <station>EX130</station>
             <station>EX131</station>
          <line>CLUSTER 9</line>
+            <station>JX1</station>
             <station>JX2</station>
             <station>JX3</station>
             <station>JX4</station>
@@ -2361,6 +2354,7 @@
             <station to = "no" from = "no">ReduceSetup-EA</station>
             <station to = "no" from = "no">AddSetup-EA</station>
          <line>P4J2_1</line>
+            <station>ET1-1</station>
             <station>ET1-2</station>
             <station>ET2-1</station>
             <station>ET2-2</station>
